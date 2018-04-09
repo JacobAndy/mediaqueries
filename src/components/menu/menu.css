@@ -1,0 +1,139 @@
+#menu-holder {
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 81.5vh;
+}
+#intromenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 11%;
+}
+.headertit {
+  color: white;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 75px;
+  line-height: 75px;
+  margin-top: 0;
+}
+#wlcm {
+  color: white;
+  font-family: "Droid Serif";
+  font-size: 45px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#tmmbutton {
+  width: 13%;
+  height: 4%;
+  background: #fed031;
+  padding: 1.6% 2%;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+@media (max-width: 509px) {
+  .headertit {
+    font-size: 60px;
+    text-align: center;
+  }
+  #wlcm {
+    font-size: 25px;
+    line-height: 20px;
+    margin-bottom: 2%;
+    margin-top: 10%;
+  }
+  #tmmbutton {
+    width: 200px;
+    height: 70px;
+  }
+}
+@media (max-width: 349px) {
+  #wlcm {
+    font-size: 25px;
+    line-height: 20px;
+    margin-bottom: 2%;
+    margin-top: 30%;
+  }
+  .headertit {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  #intromenu {
+    margin-top: 10px;
+  }
+  #tmmbutton {
+    width: 220px;
+    height: 70px;
+  }
+  .headertit {
+    font-size: 50px;
+    width: 300px;
+    text-align: center;
+    margin-top: 0;
+    line-height: 50px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 510px) and (max-width: 767px) {
+  #wlcm {
+    font-size: 25px;
+    line-height: 20px;
+    margin-bottom: 2%;
+    margin-top: 10%;
+  }
+  .headertit {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  #intromenu {
+    margin-top: 10px;
+  }
+  #tmmbutton {
+    width: 220px;
+    height: 70px;
+  }
+  .headertit {
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #wlcm {
+    font-size: 43px;
+    margin-top: 12%;
+  }
+  .headertit {
+    width: 500px;
+    text-align: center;
+  }
+  #tmmbutton {
+    width: 220px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1176px) and (max-width: 1473px) {
+  #tmmbutton {
+    width: 14%;
+    padding: 1.2% 1.5%;
+    font-size: 16px;
+  }
+  #wlcm {
+    font-size: 43px;
+  }
+  .headertit {
+    font-size: 72px;
+  }
+}

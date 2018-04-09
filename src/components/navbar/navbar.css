@@ -1,0 +1,61 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+  color: #fed136;
+  text-align: left;
+  line-height: 42px;
+  margin: 2% 0 0 16%;
+  font-weight: 600;
+}
+.directory {
+  color: white;
+  display: flex;
+  margin-right: 25%;
+  margin-top: 2%;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-size: 14.4px;
+  line-height: 21.6px;
+}
+.menu-directory {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-image: url("https://css-tricks.com/wp-content/uploads/2012/10/threelines.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  /* align-items: center; */
+  background-color: #fed136;
+  width: 75px;
+  height: 35px;
+  border-radius: 10%;
+  margin: 0.9% 140px 0 0;
+}
+.directory > div {
+  margin: 0 6%;
+}
+
+@media (max-width: 991px) {
+  .directory {
+    display: none;
+  }
+  .menu-directory {
+    display: flex;
+    margin-right: 2%;
+  }
+  .title {
+    font-size: 21px;
+    margin-top: 8px;
+    margin-left: 3%;
+  }
+}
+/* @media (min-width: 990px) {
+  .menu-directory {
+    display: flex;
+  }
+} */
